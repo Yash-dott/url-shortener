@@ -1,0 +1,68 @@
+
+/* Core CSS styles only - no Tailwind */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Custom utility classes for the app */
+.full-height {
+  min-height: 100vh;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-2 {
+  margin-top: 16px;
+}
+
+.mb-2 {
+  margin-bottom: 16px;
+}
+
+.p-2 {
+  padding: 16px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+/* Custom styles for better UX */
+.url-card {
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.stats-container {
+  padding: 20px;
+}
+
+.click-details {
+  background-color: #f5f5f5;
+  padding: 8px;
+  border-radius: 4px;
+  margin-top: 8px;
+}
